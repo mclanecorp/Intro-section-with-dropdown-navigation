@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <header>
+      <div class="container_menu">
+        <div class="logo_menu">
+          <img src="./images/logo.svg" alt="logo snap" />
+        </div>
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="#" v id="features">Features</a
+              ><img
+                src="./images/icon-arrow-down.svg"
+                id="down"
+                class="down"
+                alt=""
+              />
+              <img src="./images/icon-arrow-up.svg" id="up" class="up" alt="" />
+            </li>
+            <li>
+              <a href="#" id="company">Company</a
+              ><img
+                src="./images/icon-arrow-down.svg"
+                id="down2"
+                class="down2"
+                alt=""
+              />
+              <img
+                src="./images/icon-arrow-up.svg"
+                id="up2"
+                class="up2"
+                alt=""
+              />
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container_login">
+        <a href="#">Login</a>
+        <a href="#" class="btn_logo">Register</a>
+      </div>
+      <div class="burger" id="burger">
+        <img src="./images/icon-menu.svg" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <div class="container_menu_deroulant">
+        <div class="menu_deroulant" id="menu_deroulant">
+          <p><img src="./images/icon-todo.svg" alt="" /> Todo List</p>
+          <p><img src="./images/icon-calendar.svg" alt="" />Calendar</p>
+          <p><img src="./images/icon-reminders.svg" alt="" />Reminders</p>
+          <p><img src="./images/icon-planning.svg" alt="" />Planning</p>
+        </div>
+        <div class="menu_deroulant2" id="menu_deroulant2">
+          <p>History</p>
+          <p>Our Team</p>
+          <p>blog</p>
+        </div>
+      </div>
+      <div class="first_container">
+        <div class="text_container">
+          <h1>
+            Make<br />
+            remote work
+          </h1>
+          <p>
+            Get your team in sync, no matter your location.<br />
+            Streamline processes, create team rituals, and<br />
+            watch productivity soar.
+          </p>
+          <a href="#" class="btn_text">Learn more</a>
+        </div>
+        <div class="sponso_container">
+          <img src="./images/client-databiz.svg" alt="databiz" />
+          <img src="./images/client-audiophile.svg" alt="audiophile" />
+          <img src="./images/client-meet.svg" alt="meet" />
+          <img src="./images/client-maker.svg" alt="maker" />
+        </div>
+      </div>
+      <div class="img_container">
+        <img
+          src="./images/image-hero-desktop.png"
+          alt="image hero"
+          class="desktop"
+        />
+        <img
+          src="./images/image-hero-mobile.png"
+          alt="image hero"
+          class="mobile"
+        />
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
